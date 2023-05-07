@@ -1,32 +1,33 @@
-# Getting Started with React Components & React Hooks
+## Description
+This application is a simple budget app where user can add income and expense and can see 2 list of them
+seperately. User can also set saving target and transfer some amount from main balance. A progress bar
+will show how much the user was able to save.
 
-This assignment requires also TypeScript when passing props to React Components
+## Table of content
+1. React
+2. UseEffect
+3. UseState
+4. Custom hook
+5. Progress bar
+6. Form
+7. List
 
-## Requirements
+## Technology
 
-1. Create a simple one-page application to store incomes and expenses, and set
-saving target.
-2. Account balance can be calculated from incomes, expenses, and saving.
-`incomes - expenses - saving = balance`
-3. Users should be able to add new incomes, expenses, transfer from balance account to saving account, and reset saving target. Balance should never be negative number.
-4. Use React Hooks where applicable. TypeScript must be used at least for the props types.
-5. Style is not the priority in this assignment.
+1. React
+2. Typescript
 
-## Bonus point
+## Installation
 
-1. Add function to transfer money back from saving account to current balance.
-2. Set source of incomes and expenses as the select elements with the categories of your choice.
-3. Add edit/delete button and according functions for incomes and expenses.
-4. Use `d3` package to print out 2 piecharts for incomes and expenses in categories (I only give bonus point when you use `d3`, not the other handier libraries).
+After cloning my repositoy, go to terminal of the repo and type `npm install --template-typescript`
+then `npm start`
 
-## References
+## Deploy
 
-Be creative with your style!
+You can have a demo here: https://budgetappnew.netlify.app/
 
-![demo1](demo1.png)
----
 
-![demo2](demo2.png)
----
 
-![demo3](demo3.png)
+
+
+
